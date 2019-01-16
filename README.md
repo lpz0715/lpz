@@ -22,10 +22,9 @@ https://github.com/zenglingchao/SmileView
 
 
 集成方法：
-===========gradle方式 ======================================
+
 
 第一步：
-Step 1. Add the JitPack repository to your build file
 
 	allprojects {
 		repositories {
@@ -36,10 +35,11 @@ Step 1. Add the JitPack repository to your build file
 
 
 第二步：
-Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.zeroBugL:lpz:V1.0'
+	
+	        implementation 'com.github.zeroBugL:lpz:v1.0.1'
+		
 	}
 	
 ============================================================
@@ -93,4 +93,23 @@ XMl
         <attr name="lpz_top_txt" format="string" />       <!--笑脸顶部的文字内容 -->
 	
         <attr name="lpz_top_txt_color" format="color|reference" /><!--笑脸顶部的文字的颜色 -->
+	
+	
+	
+	
+	java：
+	
+	//选中状态监听
+	 smileView.onSmileViewCheckedChangeListner(new IOnCheckedChangeListener() {
+            @Override
+            public void checkedChangeListener(boolean nowIsCheck) {
+                
+            }
+        });
+	
+	
+	
+	
+	
+========================================================================================================================
 	
