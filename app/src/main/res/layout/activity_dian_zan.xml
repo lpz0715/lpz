@@ -11,11 +11,13 @@
         android:id="@+id/smileView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        app:lpz_iv_background_nor="@drawable/white_background"
         app:lpz_iv_background_sel="@drawable/yellow_background"
         app:lpz_iv_height="400"
         app:lpz_iv_resource="@drawable/animation_like"
         app:lpz_iv_size="25"
-        app:lpz_top_txt="满意" />
+        app:lpz_iv_type="0"
+        app:lpz_top_txt="满意"
+        app:lpz_top_txt_color="#ffffff" />
 
 </LinearLayout>
