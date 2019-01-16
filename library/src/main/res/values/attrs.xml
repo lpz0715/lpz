@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SmileView">
+
+        <attr name="lpz_iv_resource" format="reference" />
+        <attr name="lpz_iv_size" format="integer" />
+        <attr name="lpz_iv_background_sel" format="reference|color" />
+        <attr name="lpz_iv_background_nor" format="reference|color" />
+        <attr name="lpz_iv_height" format="integer" />
+        <attr name="lpz_iv_type" format="integer" />
+        <attr name="lpz_top_txt" format="string" />
+        <attr name="lpz_top_txt_color" format="color|reference" />
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:gravity="center|bottom"
+    android:paddingBottom="50dp"
+    tools:context=".DianZan2Activity">
+
+
+    <com.lpz.library.SmileView
+        android:id="@+id/smileView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lpz_iv_background_sel="@drawable/red_background"
+        app:lpz_iv_height="100"
+        app:lpz_iv_resource="@drawable/animation_dislike"
+        app:lpz_iv_size="35"
+        app:lpz_iv_type="1"
+        app:lpz_top_txt="不满意"
+        app:lpz_top_txt_color="#00aa00" />
+
+    <com.lpz.library.SmileView
+        android:id="@+id/smileView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        app:lpz_iv_background_sel="@drawable/yellow_background"
+        app:lpz_iv_height="300"
+        app:lpz_iv_resource="@drawable/animation_like"
+        app:lpz_iv_size="35"
+        app:lpz_top_txt="满意"
+        app:lpz_top_txt_color="#00aaee" />
+
+    <com.lpz.library.SmileView
+        android:id="@+id/smileView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        app:lpz_iv_background_sel="#ff00ff"
+        app:lpz_iv_background_nor="@drawable/yellow_background"
+        app:lpz_iv_height="300"
+        app:lpz_iv_resource="@drawable/animation_like"
+        app:lpz_iv_size="35"
+        app:lpz_top_txt="哇哈哈"
+        app:lpz_top_txt_color="#ff0000" />
+
+</LinearLayout>
